@@ -75,6 +75,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-align: center;
+}
+
 button {
     color: var(--color-white);
     text-transform: uppercase;
@@ -108,9 +112,10 @@ button:hover, button:active {
     2.5. Logo
     2.6. Navbar
     2.7. Content of header
+     */
 
 /* Container
-    ============================= */
+============================= */
 
 header {
     width: 100%;
@@ -130,9 +135,6 @@ header .header__container {
 @media all and (max-width: 767px) {
     header {
         background-position: 42% 50%;
-    }
-    header .header__container {
-        padding-left: 2rem;
     }
 }
 
@@ -214,6 +216,7 @@ header .header__container {
 @media all and (max-width: 480px) {
     .header__container .burger-icon {
         display: block;
+        margin-left: 2rem;
     }
 }
 
@@ -225,12 +228,18 @@ header .header__container {
     justify-content: space-between;
 }
 
+@media all and (max-width: 767px) {
+    .header__container .header__header {
+        padding-left: 1rem;
+    }
+}
+
 @media all and (max-width: 480px) {
     .header__container .header__header {
         flex-direction: column;
         align-items: center;
         width: initial;
-        margin-left: 5rem;
+        padding-left: 4rem;
     }
 }
 
@@ -309,13 +318,12 @@ nav .header__navbar--link:hover {
     width: 70%;
     margin-top: 4rem;
     margin-bottom: 8rem;
-    text-align: center;
     line-height: var(--line-height-big);
 }
 
 @media all and (max-width: 767px) {
     .header__content p {
-        width: 95%;
+        width: 90%;
     }
 }
 
