@@ -230,7 +230,7 @@ header .header__container {
 
 @media all and (max-width: 767px) {
     .header__container .header__header {
-        padding-left: 1rem;
+        padding: 0 2rem 0 3rem;
     }
 }
 
