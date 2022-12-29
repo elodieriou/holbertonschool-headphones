@@ -102,6 +102,18 @@ Take your 101-styles.css file and create a 102-styles.scss that will be the SASS
 $ sass 102-styles.scss > 101-styles.css
 ```
 
+# Tools
+<p align="center">
+    <img src="images/tools.png">
+</p>
+
+Icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+# Contact me
+<p align="center">
+    <a href="https://www.linkedin.com/in/elodieriou-dev/"><img src="images/linkedin-icon.png"></a>
+</p>
+
 # Desktop result
 
 <p align="center">
@@ -118,16 +130,4 @@ $ sass 102-styles.scss > 101-styles.css
 
 <p align="center">
     <img src="images/01_headphones_mobile@2x.png">
-</p>
-
-# Tools 
-<p align="center">
-    <img src="images/tools.png">
-</p>
-
-Icons by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-# Contact me
-<p align="center">
-    <a href="https://www.linkedin.com/in/elodieriou-dev/"><img src="images/linkedin-icon.png"></a>
 </p>
