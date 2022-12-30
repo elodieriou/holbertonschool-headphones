@@ -470,7 +470,7 @@ main {
 
 #contact_us {
     form {
-        width: 50%;
+        width: 40%;
         margin: 1rem 0 3rem 0;
 
         @media all and (max-width: $layout-breakpoint-mobile) {
@@ -525,6 +525,10 @@ footer {
                 color: $color-white;
                 font-size: 30px;
                 margin: 0 0.3rem;
+
+                &:hover {
+                    color: $color-red;
+                }
             }
         }
     }
