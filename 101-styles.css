@@ -521,6 +521,10 @@ footer p {
     margin: 0 0.3rem;
 }
 
+.footer__social span:hover {
+    color: var(--color-red);
+}
+
 @media all and (max-width: 767px) {
     footer {
         padding: 3rem 3rem 1rem 3rem;
